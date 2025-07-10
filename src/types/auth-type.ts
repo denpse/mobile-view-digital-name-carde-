@@ -9,3 +9,8 @@ export type AuthRegisterType = {
   ip_address?: string;
   browser?: string;
 };
+
+export type AuthLoginType = {
+  user_name: string;
+  password: string;
+};
