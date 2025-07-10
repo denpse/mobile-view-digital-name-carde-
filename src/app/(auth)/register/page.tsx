@@ -3,7 +3,7 @@ import { useMutation } from "@tanstack/react-query";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { useDeviceStore } from "@/app/store/device-store";
+import { useDeviceStore } from "@/store/device-store";
 import { Button } from "@/components/ui/button";
 import {
   Form,
